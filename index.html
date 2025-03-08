@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div class="custom-cursor"></div>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Javohir</a>
+            <div class="nav-links" id="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="menu-toggle" id="menu-toggle">
+                <i class="ri-menu-line"></i>
+            </button>
+        </div>
+    </nav>
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Creative Designer & Developer</h1>
+                    <p class="hero-description">Crafting digital experiences with a blend of classic elegance and modern functionality. With over 8 years of experience in creating memorable web solutions.</p>
+                    <div class="hero-buttons">
+                        <a href="#portfolio" class="btn-primary">View Work</a>
+                        <a href="#contact" class="btn-outline">Get in Touch</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <i class="ri-award-line"></i>
+                            <span>100+ Projects</span>
+                        </div>
+                        <div class="stat">
+                            <i class="ri-customer-service-2-line"></i>
+                            <span>24/7 Support</span>
+                        </div>
+                        <div class="stat">
+                            <i class="ri-global-line"></i>
+                            <span>Worldwide</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <div class="container">
+                <h2 class="section-title">Featured Works</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="image/work1.jpg" alt="Project 1" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">E-Commerce Platform</h3>
+                            <p class="project-description">A modern e-commerce solution with advanced features and seamless user experience.</p>
+                            <a href="#" class="project-link">View Details <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="image/work2.jpg" alt="Project 2" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">Mobile Banking App</h3>
+                            <p class="project-description">Secure and intuitive mobile banking application with real-time transactions.</p>
+                            <a href="#" class="project-link">View Details <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="image/work3.jpg" alt="Project 3" class="project-image">
+                        <div class="project-content">
+                            <h3 class="project-title">Analytics Dashboard</h3>
+                            <p class="project-description">Comprehensive analytics dashboard with real-time data visualization.</p>
+                            <a href="#" class="project-link">View Details <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2 class="section-title">Let's Connect</h2>
+                        <p class="contact-description">Have a project in mind? Let's discuss how we can bring your vision to life.</p>
+                        <div class="contact-details">
+                            <div class="detail">
+                                <i class="ri-map-pin-line"></i>
+                                <span>123 Creative Street, Design City, DC 12345</span>
+                            </div>
+                            <div class="detail">
+                                <i class="ri-mail-line"></i>
+                                <span>hello@portfolio.com</span>
+                            </div>
+                            <div class="detail">
+                                <i class="ri-phone-line"></i>
+                                <span>+1 (555) 123-4567</span>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="ri-linkedin-line"></i></a>
+                            <a href="#" class="social-link"><i class="ri-github-line"></i></a>
+                            <a href="#" class="social-link"><i class="ri-dribbble-line"></i></a>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Portfolio. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
